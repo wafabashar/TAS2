@@ -1,0 +1,288 @@
+body{
+    background-color: #EEEE;
+
+}
+
+.marg{
+    margin-left: 545px;
+    margin-top: 14px;
+}
+
+.flo{
+    float: left;
+}
+
+.cle{
+    clear: left;
+}
+
+.pro{
+
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 0.4) 100%);
+    background-color: #00b5ec;
+    width: 1190px;
+    height: 360px;
+    margin-left: 70px;
+
+}
+
+.userimage{
+
+    width: 260px;
+    height: 260px;
+    margin-left: 470px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 130px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.underimg{
+    background-color: white;
+    width: 1190px;
+    height: 33px;
+    margin-left: 70px;
+    padding-top: 15px;
+
+}
+
+.info{
+
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+
+.lside{
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: white;
+    width: 270px;
+    height: 350px;
+    margin-bottom: 40px;
+
+}
+
+.lbside{
+    margin-left: 70px;
+    margin-top: 40px;
+    background-color: white;
+    width: 270px;
+    height: 180px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.text{
+
+    
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E6ECF3;
+    
+
+}
+
+.maininfo{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+
+.basicinfo{
+
+    margin-left: 20px;
+    font-size: 13px;
+    color: rgb(155, 153, 153);
+
+}
+
+.lang{
+    color: rgb(155, 153, 153);
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 13px;
+
+}
+.BIO{
+
+    width: 900px;
+    height: 245px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.skills{
+    width: 875px;
+    height: 300px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+
+
+}
+
+
+
+.skillname{
+
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    width: 750px;
+    float: left;
+
+}
+
+.skillsdiv{
+
+    clear: left;
+    background-color: rgb(241, 234, 234);
+    width: 810px;
+    height: 15px;
+    margin-left: 30px;
+}
+
+.per{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 11px
+
+}
+
+.biomar{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.biomar2{
+
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.p3{
+
+    width: 1190px;
+    height: 700px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 70px;
+
+}
+
+.textbox{
+
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    width: 775px;
+    height: 25px;
+    margin-left: 20px ;
+}
+
+.boxabout{
+
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    width: 775px;
+    height: 90px;
+    margin-left: 20px ;
+
+}
+
+.textbox:focus{ border-color:#66afe9;
+    outline: 0; }
+
+.boxabout:focus{ border-color:#66afe9;
+        outline: 0; }
+
+
+.saveb{
+
+    color: #ffffff; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color:#428bca ;
+    border-color:#357ebd ;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 115px;
+
+}
+
+.saveb:hover{
+
+    background-color: #3276b1;
+    border-color: #285e8e
+}
+
+.p2{
+
+    width: 1190px;
+    height: 300px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 70px;
+
+}
+
+table{
+    
+    
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-collapse: collapse;
+
+}
+
+.tablehed{
+
+    font-size: 13px;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+
+.tablehed:hover{
+
+    background-color:#F0F0F0;
+}
+
+ th
+{
+    
+    border-bottom: 3px solid #dee2e6;
+
+}
+
+tr{
+
+    height: 40px;
+    text-align: left; 
+}

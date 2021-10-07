@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Profile</title>
+
+<link href="style2.css" rel="stylesheet" type="text/css">
+
+<!----------------------JAVASECRIPT-------------------------->
+
+<script type="text/javascript">
+    function Toggle(value){
+        switch(value){
+            case 'aboutMe':
+                document.getElementById('aboutMe').style.display="block";
+                document.getElementById('Projects').style.display="none";
+                document.getElementById('Settings').style.display="none";
+                break;
+            case 'Projects':
+                document.getElementById('aboutMe').style.display="none";
+                document.getElementById('Projects').style.display="block";
+                document.getElementById('Settings').style.display="none";
+                break;
+            case 'Settings':
+                document.getElementById('aboutMe').style.display="none";
+                document.getElementById('Projects').style.display="none";
+                document.getElementById('Settings').style.display="block";
+                break;
+        }
+    }
+
+    </script>
+
+<!-------------------------------------------->
+
+</head>
+
+<body>
+
+<div class="pro">
+
+    <img class="userimage" src="avatar7.png">
+    <br>
+
+    <div class="marg">
+
+    <span class="name">John Deon</span>
+
+   </div>
+
+</div>
+
+<div class="underimg">
+
+<!-----------------------ONCLICK PART FROM JAVA------------------------------>
+<span class="info" onclick="Toggle('aboutMe')">ABOUT ME</span>
+<span class="info" onclick="Toggle('Projects')">PROJECTS</span>
+<span class="info" onclick="Toggle('Settings')">SETTINGS</span>
+<!------------------------------------------------------------>
+
+</div>
+
+<!---------------------PART FROM JAVA--------------------------------->
+
+<div id="aboutMe" >
+<!--------------------------------------------------------->
+<div class="flo">
+
+<div class="lside">
+
+    <div class="text">
+        <span>&nbsp &nbsp PERSONAL INFORMATION </span>
+    </div>
+
+    <div>
+
+    <div class="maininfo">
+        <span>Full Name </span>
+    </div>
+
+    <div class="basicinfo">
+        <span>Johnathan Do</span>
+    </div>
+
+   </div>
+
+
+
+   <div>
+
+    <div class="maininfo">
+        <span>Mobile </span>
+    </div>
+
+    <div class="basicinfo">
+        <span>(123) 123 1234</span>
+    </div>
+
+
+</div>
+
+
+<div>
+
+    <div class="maininfo">
+        <span>Email</span>
+    </div>
+
+    <div class="basicinfo">
+        <span>johnathandeon@moltran.com</span>
+    </div>
+
+ </div>
+
+ <div>
+
+    <div class="maininfo">
+        <span>Location</span>
+    </div>
+    <div class="basicinfo">
+        <span>USA</span>
+        
+    </div>
+
+ </div>
+
+
+</div>
+
+<div class="lbside">
+
+    <div class="text">
+        <span> &nbsp &nbsp LANGUAGES</span>
+    </div>
+
+    <div>
+        <ul>
+            <li class="lang">English</li>
+            <li class="lang">Franch</li>
+            <li class="lang">Greek</li>
+        </ul>
+    </div>
+
+
+
+</div>
+
+</div>
+
+<div class="flo">
+
+  <div class="BIO">
+
+    <div class="text">
+        <span>&nbsp &nbsp BIOGRAPHY</span>
+    </div>
+
+    <div class="biomar">
+        <span>Lorem Impsum is simply dummy text of the printing and typesetting industry. Lorem Impsum
+            has been the industry's standerd dummy text ever since the 1500s, when an unknown printer took 
+            a galley of type and scrambled it to make a type specimen book. It has survived not only five
+             centuries, but also the leap into electronic typesetting,remaining essentially unchanged. </span>
+    </div>
+
+    <div class="biomar2">
+        <span>But also the leap into electronic typesetting, remaning essentially unchanged </span>
+    </div>
+    <div class="biomar">
+        <span>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Impsum
+            passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Impsum </span>
+    </div>
+
+    
+
+
+
+  </div>
+
+
+  <div class="skills">
+
+    <div class="text">
+        <span>&nbsp &nbsp SKILLS</span>
+    </div>
+
+    <div>
+
+        <div class="skillname">
+            <span>Angular Js</span>
+        </div>
+
+        <div class="per">
+            <span>60%</span>
+        </div>
+
+    
+
+        <div class="skillsdiv">
+
+        </div>
+    </div>
+
+
+    <div>
+
+        <div class="skillname">
+            <span>Javascript</span>
+        </div>
+
+        <div class="per">
+            <span>90%</span>
+        </div>
+
+
+        <div class="skillsdiv">
+
+        </div>
+    </div>
+
+
+    <div>
+
+        <div class="skillname">
+            <span>Wordpress</span>
+        </div>
+
+        <div class="per">
+            <span>80%</span>
+        </div>
+
+
+        <div class="skillsdiv">
+
+        </div>
+    </div>
+
+    <div>
+
+        <div class="skillname">
+            <span>HTML5 & CSS3</span>
+        </div>
+
+        <div class="per">
+            <span>95%</span>
+        </div>
+
+
+        <div class="skillsdiv">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+</div>
+
+</div>
+
+
+<!------------------------PART FROM JAVA------------------------------------->
+<div id="Projects" style="display: none;" >
+<!---------------------------------------------------->
+
+    <div class="p2">
+
+        <div class="text">
+            <span>&nbsp &nbsp MY PROJECTS</span>
+        </div>
+
+        <div>
+
+            <table>
+
+            
+
+                <tr class="tablehed">
+                    <th >#</th>
+                    <th>Project Name</th>
+                    <th>Start Date</th>
+                    <th>Due Date</th>
+                    <th>Assign</th>
+
+                </tr>
+
+            
+
+                <tr class="tablehed">
+                    <td>1</td>
+                    <td>Moltran Admin</td>
+                    <td>01/01/2015</td>
+                    <td>07/07/2015</td>
+                    <td>Coderthemes</td>
+
+                </tr>
+
+                <tr class="tablehed">
+                    <td>2</td>
+                    <td>Moltran Frontend</td>
+                    <td>01/01/2015</td>
+                    <td>07/07/2015</td>
+                    <td>Coderthemes</td>
+
+                </tr>
+
+                <tr class="tablehed">
+                    <td>3</td>
+                    <td>Moltran Admin</td>
+                    <td>01/01/2015</td>
+                    <td>07/07/2015</td>
+                    <td>Coderthemes</td>
+
+                </tr>
+
+
+
+            </table>
+        </div>
+
+
+
+    </div>
+    
+</div>
+<!-----------------------PART FROM JAVA------------------------->
+<div id="Settings" style="display: none;" >
+    
+    <!---------------------------------------------->
+
+    <div class="p3">
+
+        <div class="text">
+            <span>&nbsp &nbsp EDIT PROFILE</span>
+        </div>
+    
+        <div>
+    
+        <div class="maininfo">
+            <span>Name</span>
+        </div>
+    
+        <div>
+            <input type="text" class="textbox">
+        </div>
+    
+        </div> 
+    
+    
+          <div>
+    
+            <div class="maininfo">
+                <span>Email</span>
+            </div>
+        
+            <div>
+                <input type="email" class="textbox">
+            </div>
+        
+           </div> 
+    
+    
+              <div>
+    
+                <div class="maininfo">
+                    <span>Username</span>
+                </div>
+            
+                <div>
+                    <input type="text" class="textbox">
+                </div>
+            
+             </div> 
+    
+    
+    
+             <div>
+    
+                <div class="maininfo">
+                    <span>Password</span>
+                </div>
+            
+                <div>
+                    <input type="password" class="textbox">
+                </div>
+            
+             </div> 
+    
+    
+             <div>
+    
+                <div class="maininfo">
+                    <span>Re-Password</span>
+                </div>
+            
+                <div>
+                    <input type="password" class="textbox">
+                </div>
+            
+             </div> 
+    
+             <div>
+    
+                <div class="maininfo">
+                    <span>About Me</span>
+                </div>
+            
+                <div>
+                    <input type="text" class="boxabout">
+                </div>
+            
+            </div> 
+    
+        <div>
+            <button class="saveb">Save Changes</button>
+        </div>
+    
+    
+    
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
